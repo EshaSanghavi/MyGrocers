@@ -1,0 +1,120 @@
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 98%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+.input-group input:focus{
+    height: 30px;
+    width: 98%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ff6c0a;
+    outline: none;
+}
+.input-group textarea {
+  height: 90px;
+  width: 98%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+.input-group textarea:focus{
+    height: 90px;
+    width: 98%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ff6c0a;
+    outline: none;
+}
+.input-group select {
+    height: 30px;
+    width: 98%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+.input-group select:focus{
+    height: 30px;
+    width: 98%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #ff6c0a;
+    outline: none;
+  }
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #44dbfa;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+}
+.btn:hover{
+    padding: 10px;
+    font-size: 15px;
+    color: #44dbfa;
+    background: white;
+    border: 2px solid #44dbfa;
+    border-radius: 5px;
+    outline: none;
+}
+.btn-orange{
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  background: #ff6c0a;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+}
+.btn-orange:hover{
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background: white;
+  color: #ff6c0a;
+  border: 2px solid #ff6c0a;
+  border-radius: 5px;
+  outline: none;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}

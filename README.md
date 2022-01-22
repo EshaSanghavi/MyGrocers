@@ -1,4 +1,4 @@
-# Grocery_Store
+# MyGrocers
 This is an ecommerce website for a grocery store. It has features like cart, payment, promotional emails. 
 
 # Execution

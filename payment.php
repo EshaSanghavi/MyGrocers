@@ -43,12 +43,12 @@
 	    $mail->isSMTP();                                            
 	    $mail->Host       = 'smtp.gmail.com;';                    
 	    $mail->SMTPAuth   = true;                             
-	    $mail->Username   = 'eshasanghavi1@gmail.com';                 
-	    $mail->Password   = 'esha1san1';                        
+	    $mail->Username   = 'xyz@gmail.com';                 
+	    $mail->Password   = 'pass';                        
 	    $mail->SMTPSecure = 'tls';                              
 	    $mail->Port       = 587;  
 	  
-	    $mail->setFrom('eshasanghavi1@gmail.com', 'MyGrocers');           
+	    $mail->setFrom('xyz@gmail.com', 'MyGrocers');           
       	$mail->addAddress($usermail);
 	    //$mail->addAddress('receiver2@gfg.com', 'Name');
 	       

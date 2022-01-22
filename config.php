@@ -1,8 +1,8 @@
 <?php
 session_start();
 $servername = "localhost";
-$username = "eshie";
-$password = "esh@17";
+$username = "user name";
+$password = "pass";
 $dbname = "Groceries";
 
 // Create connection
